@@ -1,0 +1,49 @@
+ /* Стили для всего документа */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для шапки */
+.header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    /* Стиль для левой части шапки (логотип) */
+}
+
+.header-center {
+    /* Стиль для центральной части шапки (поиск) */
+}
+
+.header-right {
+    /* Стиль для правой части шапки (иконки, кнопка) */
+}
+
+/* Стили для меню */
+.menu {
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Стили для основного контента */
+.main-content {
+    padding: 20px;
+}
+
+/* Стили для кнопок */
+.button {
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+}
